@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
                 "json:target/cucumber.json",},
         features = {"src/test/resources/features", "src/test/resources/mobileTesting"},
         glue = "stepdefinitions",
-        tags = "@browser",
+        tags = "@lidl",
         dryRun = false
 )
 public class runner {
@@ -18,9 +18,3 @@ public class runner {
 }
 
 
-git init
-git add .
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/Ahmet-KARAGOZ/Appium-Cucumber-Self.git
-git push -u origin main
